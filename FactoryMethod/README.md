@@ -1,1 +1,2 @@
-#Ejemplo del template FactoryMethod
+# Ejemplo del template Factory Method
+
