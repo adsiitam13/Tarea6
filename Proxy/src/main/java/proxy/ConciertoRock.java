@@ -7,7 +7,7 @@ public class ConciertoRock implements Concierto{
 	}
 
 	public void entrar(Asistente asistente){
-		System.out.printle(asistente.getName()+" entró al concierto");
+		System.out.println(asistente.getName()+" entró al concierto");
 	}
 
 }
