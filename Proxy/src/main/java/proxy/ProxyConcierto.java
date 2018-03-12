@@ -12,7 +12,7 @@ public class ProxyConcierto  implements Concierto{
 	}
 
 	public void entrar(Asistente asistente){
-		if (numAsistentes<AFORO && asistente.getEdad()<EDAD_PERMITIDA){
+		if (numAsistentes<AFORO && asistente.getEdad()>=EDAD_PERMITIDA){
 			concierto.entrar(asistente);
 			numAsistentes++;
 		}else
