@@ -1,6 +1,6 @@
 package abstractfac;
 
-public class AmericanoFactory implements AbstractFactory{
+public class AmericanoFactory extends AbstractFactory{
 
         public AmericanoFactory(){
 

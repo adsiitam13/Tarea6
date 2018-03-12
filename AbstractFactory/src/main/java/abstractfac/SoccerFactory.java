@@ -1,6 +1,6 @@
 package abstractfac;
 
-public class SoccerFactory implements AbstractFactory{
+public class SoccerFactory extends AbstractFactory{
 
 	public SoccerFactory(){
 	

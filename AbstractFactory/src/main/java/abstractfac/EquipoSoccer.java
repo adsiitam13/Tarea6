@@ -7,7 +7,7 @@ public class EquipoSoccer implements Equipo{
 	}
 	
         public void armar(int num){
-		System.out.println("Se armó un equipo de fútbol soccer con "+num+" jugadores);
+		System.out.println("Se armó un equipo de fútbol soccer con "+num+" jugadores");
 	}
 }
 
