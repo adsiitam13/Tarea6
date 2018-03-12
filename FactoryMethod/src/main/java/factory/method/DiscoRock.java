@@ -1,17 +1,17 @@
 package factory.method;
 
 public class DiscoRock implements Disco{
-	private TipoDisco tipo;
+	private String tipo;
 
-	public DiscoRock(TipoDisco tipo){
+	public DiscoRock(String tipo){
 		this.tipo=tipo;
 	}
 
 	public String toString(){
-		return tipo + "de rock";
+		return tipo + " de rock";
 	}
 
-	public TipoDisco getTipoDisco(){
+	public String getTipoDisco(){
 		return tipo;
 	}
 

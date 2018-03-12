@@ -10,7 +10,7 @@ public class BluRayPlayer{
 	
 	public String play(String nombre,String tipo){
 		if(tipo.equalsIgnoreCase("bluray"))
-			return "El archivo "+name+" se está reproduciendo.";
+			return "El archivo "+nombre+" se está reproduciendo.";
 		else if(tipo.equalsIgnoreCase("vhs")||tipo.equalsIgnoreCase("dvd")) {
 			adaptador=new VideoAdapter(tipo);
 			return adaptador.play(nombre);

@@ -3,7 +3,7 @@ package adapter;
 public class VideoAdapter implements MediaPlayer{
 	private MediaPlayer player;
 
-	public VideoAdapter(Tipo tipo){
+	public VideoAdapter(String tipo){
 		if(tipo.equalsIgnoreCase("vhs"))
 			player= new VHSPlayer();
 		else 

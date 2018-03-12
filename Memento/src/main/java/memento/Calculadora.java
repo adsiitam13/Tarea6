@@ -25,7 +25,7 @@ public class Calculadora{
 		
 	// suma el resultado con otro numero
 	public double sumarRes(double num2){
-		res+=m.getRes()+num2;
+		res+=num2;
 		return res;
 	}
 

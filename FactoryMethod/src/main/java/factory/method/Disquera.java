@@ -1,6 +1,6 @@
 package factory.method;
-public interface Disquera {
 
-        Disco crearDisco (TipoDisco tipo);
+public interface Disquera {
+        Disco crearDisco (String tipo);
 
 }

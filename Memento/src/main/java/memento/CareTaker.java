@@ -14,7 +14,7 @@ public class CareTaker{
 	public void add(Memento m){
 		mementoList.add(m);
 		ops++;
-		System.out.prtinln("Se guardó el resultado #"+ops+": "+m.getRes());	
+		System.out.println("Se guardó el resultado #"+ops+": "+m.getRes());	
 	}
 
 	public Memento get(int index){
