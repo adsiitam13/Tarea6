@@ -10,7 +10,7 @@ public class VideoAdapter implements MediaPlayer{
 			player=new DVDPlayer();
 	}
 
-	public void play(String nombre){
+	public String play(String nombre){
 		return player.play(nombre);
 	}
 }

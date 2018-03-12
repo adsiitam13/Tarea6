@@ -1,14 +1,14 @@
 package adapter;
 
-public class BluRayPlayer implements MediaPlayer{
+public class BluRayPlayer{
 	VideoAdapter adaptador;
 
 	public BluRayPlayer(){
 
 	}
 
-	@Override
-	public play(String nombre,String tipo){
+	
+	public String play(String nombre,String tipo){
 		if(tipo.equalsIgnoreCase("bluray"))
 			return "El archivo "+name+" se está reproduciendo.";
 		else if(tipo.equalsIgnoreCase("vhs")||tipo.equalsIgnoreCase("dvd")) {

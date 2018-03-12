@@ -4,7 +4,7 @@ public class VHSPlayer implements MediaPlayer{
         public VHSPlayer(){
         }
 
-        public play(String nombre){
+        public String play(String nombre){
                 return "El archivo "+nombre+" se está reproduciendo";
         }
 }

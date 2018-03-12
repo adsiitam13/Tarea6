@@ -1,5 +1,5 @@
 package adapter;
 
 public interface MediaPlayer{
-	public void play(String nombre);
+	public String play(String nombre);
 }
