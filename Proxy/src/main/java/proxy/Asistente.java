@@ -3,14 +3,14 @@ package proxy;
 public class Asistente{
 	private String nombre;
 	private int edad;
-	
+
 	public Asistente(String nombre,int edad){
 		this.nombre=nombre;
 		this.edad=edad;
 	}
 
 	public String getName(){
-		return name;
+		return nombre;
 	}
 
 	public int getEdad(){

@@ -2,8 +2,8 @@ package proxy;
 
 public class Entrada{
 	public static void main(String[] args){
-		ConciertoProxy proxy=new ConciertoProxy(new ConciertoRock());
-		
+		ProxyConcierto proxy=new ProxyConcierto(new ConciertoRock());
+
 		proxy.entrar(new Asistente("Andrea",18));
 		proxy.entrar(new Asistente("Paola",15));
                 proxy.entrar(new Asistente("Miguel",21));
