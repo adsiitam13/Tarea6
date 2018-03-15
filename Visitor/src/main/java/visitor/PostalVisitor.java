@@ -9,16 +9,16 @@ public class PostalVisitor implements Visitor{
 
 	public void visit(Paquete paquete){
 		if(paquete.getPeso()<50)
-			total+=600;
+			total+=600.00;
 		else
-			total+=250;
+			total+=250.00;
 
-		if(!destino.equalsIgnoreCase("mexico"))
-			total+=500;
+		if(!(paquete.getDestino()).equalsIgnoreCase("mexico"))
+			total+=500.50;
 	}
 
 	public void visit(Carta carta){
-		if(!destino.equalsIgnoreCase("mexico"))
+		if(!(carta.getDestino()).equalsIgnoreCase("mexico"))
 			total+=100;
 	}
 

@@ -4,7 +4,7 @@ public class Paquete implements Visitable{
 	private double peso;
 	private String destino;
 
-	public Paquete(String destino, String peso){
+	public Paquete(String destino, double peso){
 		this.destino=destino;
 		this.peso=peso;
 	}

@@ -5,6 +5,8 @@
   <properties>
      <project.java.version>1.8</project.java.version>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <groupId>lambdaexpression</groupId>
@@ -23,8 +25,8 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <version>4.11</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 
@@ -38,7 +40,7 @@
 	 <configuration>	 
           <archive>
             <manifest>
-               <mainClass>abstractfac.Deportes</mainClass>
+               <mainClass>lambdaexpression.LambdaExpression</mainClass>
             </manifest>
           </archive>
 	 </configuration>

@@ -17,7 +17,7 @@ public class OficinaPostal{
 	public double calcularCosto(){
 		PostalVisitor visitor=new PostalVisitor();
 
-		for(Visitable item:items){
+		for(Visitable item:objetos){
 			item.accept(visitor);
 		}
 

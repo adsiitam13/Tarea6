@@ -12,6 +12,6 @@ public class Carta implements Visitable{
 	}
 
 	public String getDestino(){
-		return destino
+		return destino;
 	}
 }
