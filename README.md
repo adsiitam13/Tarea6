@@ -1,3 +1,7 @@
-# Tarea6
+# Tarea 6
 
-Cada carpeta contiene un ejemplo del patrón en java junto con un archivo run.sh para correr el proyecto
+Cada carpeta contiene:
+  * Archivo pom.xml para definir dependencias
+  * Carpeta src con código funcional que ejemplifica el patrón o la función.
+  * Archivo README donde se explica el ejemplo y en el caso de los patrones de diseño también se explica su uso y sus beneficios.
+  * Archivo run.sh para correr el proyecto con Maven.
