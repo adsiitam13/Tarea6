@@ -2,6 +2,7 @@
 
 Las expresiones lambda se usan en la programación funcional y son una herramienta muy útil. Una expresión lambda te permite crear clases anónimas de interfaces que sólo tienen un método.
 
+## Ventajas
 Esta nueva manera de programar disminuye la cantidad de código usado pues permite definir diferentes funcionalidades de una interfaz sin tener que crear una clase para cada una. Las expresiones lambda permiten pasar funciones como un argumento de otro método de manera sencilla.
 
 ## Ejemplo
